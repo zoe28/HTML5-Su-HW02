@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Form</title>
+  <meta name="description" content="This is Zoe's homework">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <form>
+      <h2>Personal Information</h2>
+      <p>
+        <label class="label">First Name</label>
+        <input type="text" placeholder="Zoe" autofocus>
+      </p>
+      <p>
+        <label class="label">Last Name</label>
+        <input type="text" placeholder="Su">
+      </p>
+      <p>
+        <label class="label" for="spiderman">Email</label>
+        <input type="email" placeholder="ssss@gmail.com" id="spiderman">
+      </p>
+      <p>
+        <label class="label" for="telephone">Phone Number</label>
+        <input type="tel" placeholder="987-654-3210" name="telephone" id="telephone" pattern="^[2-9]\d{2}-\d{3}-\d{4}$" maxlength="12"
+          required>
+      </p>
+      <p>
+        <label class="label" for="url">Website</label>
+        <input type="url" placeholder="https://google.com" name="url" id="url">
+      </p>
+      <p>
+        <label class="label" for="color">Favorite color</label>
+        <input type="color" name="color" id="color" value="#E5989B">
+      </p>
+      <p>
+        <label class="label" for="date">Date</label>
+        <input type="date" name="date" id="date">
+      </p>
+      <p>
+        <label class="label" for="week">Week</label>
+        <input type="week" name="week" id="week">
+      </p>
+      <p>
+        <label class="label" for="month">Month</label>
+        <input type="month" name="month" id="month">
+      </p>
+      <p>
+        <label class="label" for="time">Time</label>
+        <input type="time" name="time" id="time">
+      </p>
+      <label class="label" for="video">Hermione Video</label>
+      <video controls src="hp.mp4" poster="hp.jpg" id="video" width="320">Your browser does not support the video tag.</video>
+      <br>       
+      <label class="label" for="audio">Hermione Audio</label>
+      <audio id="audio" controls>
+        <source src="dirt_nose.ogg" type="audio/ogg">
+        <source src="dirt_nose.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+      </audio>
+      <p>
+        <button>
+          Submit
+        </button>
+      </p>
+    </form>
+  </div>
+
+</body>
+
+</html>
