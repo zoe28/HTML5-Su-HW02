@@ -10,15 +10,15 @@ body {
 }
 
 h2 {
-  color: #905146;
+  color: #9b593f;
 }
 
 .label {
-  color: #9f7a42;
+  color: #326868;
 }
 
 #container {
-  border: 1px solid lightcoral;
+  border: 1px solid rgb(163, 78, 96);
   padding: 1em 2em;
   border-radius: 1em;
   font-size: 1.5em;
@@ -26,7 +26,7 @@ h2 {
 }
 
 button {
-  box-shadow: 1px 0 0.1em rgba(163, 41, 41, 0.466);
+  box-shadow: 1px 0 0.1em rgba(131, 113, 34, 0.76);
   background-image: linear-gradient(to right bottom, #5f85a5, #668eaf, #6c97b8, #73a1c2, #7aaacc); 
   padding: 0.25em 1.5em;
   border-radius: 0.5em;

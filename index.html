@@ -14,9 +14,20 @@
 </head>
 
 <body>
+  <nav>
+    <a href="./Su-01/index.html">
+      <span>Home</span>
+    </a> |
+    <a href="./Su-01/about.html">
+      <span>About</span>
+    </a> |
+    <a href="./index.html ">
+      <span>Form</span>
+    </a>
+  </nav>
   <div id="container">
     <form>
-      <h2>Personal Information</h2>
+      <h1>Personal Information</h1>
       <p>
         <label class="label">First Name</label>
         <input type="text" placeholder="Zoe" autofocus>
@@ -58,14 +69,18 @@
         <label class="label" for="time">Time</label>
         <input type="time" name="time" id="time">
       </p>
-      <label class="label" for="video">Hermione Video</label>
-      <video controls src="hp.mp4" poster="hp.jpg" id="video" width="320">Your browser does not support the video tag.</video>
-      <br>       
-      <label class="label" for="audio">Hermione Audio</label>
-      <audio id="audio" controls>
+      <label class="label">Hermione Video</label>
+      <video controls src="hp.mp4" poster="hp.jpg" id="video" width="320" muted>Your browser does not support the video tag.</video>
+      <br>
+      <p class="label">
+        <label for="range">Did you like the video?</label>
+        <br> Love it
+        <input type="range" name="range" id="range">Nope
+      </p>
+      <label class="label">Hermione Audio</label>
+      <audio id="audio" controls muted autoplay>
         <source src="dirt_nose.ogg" type="audio/ogg">
-        <source src="dirt_nose.mp3" type="audio/mpeg">
-        Your browser does not support the audio tag.
+        <source src="dirt_nose.mp3" type="audio/mpeg"> Your browser does not support the audio tag.
       </audio>
       <p>
         <button>
